@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class GuessingGame {
+
+	public static void main(String[] args) {
+		
+		int numOne = 5;
+		int numTwo = 6;
+		double numThree = (numOne/numTwo);
+		int numFour = 2;
+		int numFive = 6;
+		double numSix = (numFour/numFive);
+		
+		System.out.println(numThree);
+		System.out.println(numSix);
+		System.out.println(numThree == numSix);
+		
+		}
+
+	}
+
+
+
+/*Scanner keyBoard = new Scanner(System.in);
+int num = 7;
+int guess = 0;
+
+System.out.println("Guess a number between 1 and 10: ");
+
+guess = keyBoard.nextInt();
+
+while(guess !=num) {
+	System.out.println("Incorrect, try guessing again. Pick a number between 1 and 10");
+	guess = keyBoard.nextInt();
+}
+
+System.out.println("Correct!");*/

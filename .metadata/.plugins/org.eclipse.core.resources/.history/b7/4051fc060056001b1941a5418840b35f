@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class GuessingGame {
+
+	public static void main(String[] args) {
+		Scanner keyboard  = new Scanner(System.in);
+		double num = 7.2;
+		int guess = 0;
+		
+		System.out.println("Guess a number between 1 and 10: ");
+		
+		guess = keyboard.nextInt();
+		
+		while(guess !=num) {
+			System.out.println("Incorrect, try guessing again. Pick a number between 1 and 10");
+			guess = keyboard.nextInt();
+		}
+		
+		System.out.println("Correct!");
+		
+		}
+
+	}
+
+
